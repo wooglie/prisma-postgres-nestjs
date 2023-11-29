@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """(Admin) Get all users"""
+  adminUsers: [User!]!
+
+  """Get all users"""
+  users: [User!]!
+}
+
+type User {
+  email: String!
+  externalId: String!
+  id: String!
+}
